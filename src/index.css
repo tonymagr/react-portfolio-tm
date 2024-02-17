@@ -156,9 +156,17 @@ button:focus-visible {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
+.image-border {
+  border: 10px outset silver;
+}
+
 .text-light {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity));
+}
+
+.text-dark {
+  color: #535bf2;
 }
 
 .profile-footer {
@@ -179,6 +187,49 @@ button:focus-visible {
 
 .navbar-expand-lg .navbar-nav {
   flex-direction: row;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.p-4 {
+  padding: 1.375rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.card-use {
+  border: 1px solid #6C757D;
+  margin: 0rem .15rem;
+  border-radius: 0.3rem;
+  /* flex: 1 1 20%; */
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  /* flex: 0 0 32.5%;
+  max-width: 32.5%; */
 }
 
 @media (prefers-color-scheme: light) {
