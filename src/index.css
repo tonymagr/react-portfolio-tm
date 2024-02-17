@@ -68,6 +68,7 @@ button:focus-visible {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  justify-content: center;
 }
 
 .navbar {
@@ -212,7 +213,9 @@ button:focus-visible {
   border: 1px solid #6C757D;
   margin: 0rem .15rem;
   border-radius: 0.3rem;
-  /* flex: 1 1 20%; */
+  box-sizing: border-box;
+  height: 160px;
+  width: 120px;
 }
 
 .col-2 {

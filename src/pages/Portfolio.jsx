@@ -17,7 +17,7 @@ export default function Portfolio() {
         />
         <Project
           links={[
-            <Link key={2} className="nav-link text-dark" target="_blank"
+            <Link key={1} className="nav-link text-dark" target="_blank"
               to="https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/">
               Culinary Connect
             </Link>,
@@ -25,7 +25,7 @@ export default function Portfolio() {
         />
         <Project
           links={[
-            <Link key={2} className="nav-link text-dark" target="_blank"
+            <Link key={1} className="nav-link text-dark" target="_blank"
               to="https://text-editor-for-device.onrender.com/">
               Text Editor
             </Link>,
@@ -33,7 +33,7 @@ export default function Portfolio() {
         />
         <Project
           links={[
-            <Link key={2} className="nav-link text-dark" target="_blank"
+            <Link key={1} className="nav-link text-dark" target="_blank"
               to="https://full-stack-service-app.onrender.com/">
               Skill Magnet
             </Link>,
@@ -41,7 +41,7 @@ export default function Portfolio() {
         />
         <Project
           links={[
-            <Link key={2} className="nav-link text-dark" target="_blank"
+            <Link key={1} className="nav-link text-dark" target="_blank"
               to="https://tonymagr.github.io/weather-dashboard-search/">
               Weather Dashboard
             </Link>,
@@ -49,7 +49,7 @@ export default function Portfolio() {
         />
         <Project
           links={[
-            <Link key={2} className="nav-link text-dark" target="_blank"
+            <Link key={1} className="nav-link text-dark" target="_blank"
               to="https://tonymagr.github.io/work-day-scheduler-3rd-party-apis/">
               Work Day Scheduler
             </Link>,
@@ -57,7 +57,7 @@ export default function Portfolio() {
         />
         <Project
           links={[
-            <Link key={2} className="nav-link text-dark" target="_blank"
+            <Link key={1} className="nav-link text-dark" target="_blank"
               to="https://tonymagr.github.io/quiz-game/">
               Quiz Game
             </Link>,
