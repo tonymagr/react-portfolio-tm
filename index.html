@@ -1,13 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React Components</title>
+    <title>Vite + React</title>                                           <!--        Change this -->
   </head>
   <body>
-    <div id="root"></div>
+    <!-- This is where react DOM is going to put our React application -->
+    <!-- This is similar to {{{ body }}} from Handlebars res.render -->
+    <div id="root" className="display-flex"></div>
+
+    <!-- This JS file is what renders our application into the div tag above. -->
     <script type="module" src="/src/main.jsx"></script>
+
   </body>
 </html>
