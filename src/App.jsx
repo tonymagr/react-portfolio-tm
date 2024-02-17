@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Nav />
-      {/* Show one of different views associated with URL */}
+      {/* Outlet: Show one of different views associated with URL */}
       <Outlet />
       <Footer />
     </>

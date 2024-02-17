@@ -163,9 +163,13 @@ button:focus-visible {
 
 .profile-footer {
   text-align: center;
-  position: fixed;
-  inset: auto 0 0 0;
-  padding: 1em;
+  line-height: 2.75rem;
+}
+
+.footer-format {
+  border: .15rem solid #6C757D;
+  /* border: solid black; */
+  height: 60px;
 }
 
 .navbar-expand-lg {
