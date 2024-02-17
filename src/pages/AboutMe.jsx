@@ -4,7 +4,7 @@ export default function AboutMe() {
       <div className="container pt-4">
         <h3>About Me</h3>
         <div>
-            <img className="image-border" src="/src/assets/img/headshot.jpg" alt="Headshot"/>
+            <img className="image-border" src="/src/assets/headshot.jpg" alt="Headshot"/>
         </div>
         <p>
             Most recently I completed the Berkeley Full Stack Web Development boot camp, which was very educational and rewarding! 
