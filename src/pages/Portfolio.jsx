@@ -26,6 +26,18 @@ export default function Portfolio() {
         <Project
           links={[
             <Link key={1} className="nav-link text-dark" target="_blank"
+              to="https://tech-blog-w-postgres-5fe3b6c87bcb.herokuapp.com">
+              <div style={{ textAlign: 'center' }}>
+                <img src="public\blog.jpg" alt="Tech Blog" style={{ width: '110px', marginLeft: '-11px', marginTop: '-4px' }} />
+                <div>Tech Blog</div>
+              </div>
+            </Link>,
+          ]}
+        />
+        
+        <Project
+          links={[
+            <Link key={1} className="nav-link text-dark" target="_blank"
               to="https://text-editor-for-device.onrender.com/">
               Text Editor
             </Link>,
