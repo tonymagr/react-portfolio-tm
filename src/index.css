@@ -102,6 +102,20 @@ button:focus-visible {
   justify-content: flex-end;
 }
 
+/* Suggested formatting from Copilot to force 2nd page row where desired */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.portfolio-grid > div:nth-child(5),
+.portfolio-grid > div:nth-child(6),
+.portfolio-grid > div:nth-child(7),
+.portfolio-grid > div:nth-child(8) {
+  grid-column: span 4;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity));
