@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import Project from '../components/Project';
+// Import the background pattern CSS
+import '../style.scss';
 
 // Portfolio content
 export default function Portfolio() {
