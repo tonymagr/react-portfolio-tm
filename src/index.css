@@ -116,6 +116,10 @@ button:focus-visible {
   grid-column: span 4;
 }
 
+.indent-right {
+  margin-left: 0.5in;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity));
