@@ -34,7 +34,9 @@ export default function Portfolio() {
         <Project
           links={[
             <Link key={1} className="nav-link text-dark" target="_blank"
-              to="https://tech-blog-w-postgres-5fe3b6c87bcb.herokuapp.com">
+              to="https://tech-blog-w-postgres.onrender.com/">
+              {/* Not using Heroku due to monthly billing requirement. Render also handles full stack apps.
+                  to="https://tech-blog-w-postgres-5fe3b6c87bcb.herokuapp.com"> */}
               <div style={{ textAlign: 'center' }}>
                 <img className="image-border-lightgreen" src="\blog.jpg" alt="Tech Blog" style={{ width: '110px', marginLeft: '0px', marginTop: '-4px' }} />
                 <div>Tech Blog</div>
